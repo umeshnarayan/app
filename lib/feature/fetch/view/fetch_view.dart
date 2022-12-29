@@ -14,6 +14,9 @@ class FetchPage extends GetView<Fetchcontroller>{
 
   Widget build(BuildContext context) {
     return Obx(()=>Scaffold(
+      appBar : AppBar(
+        title: Text("Fetch View"),
+      ),
       body:Center(
 
 
