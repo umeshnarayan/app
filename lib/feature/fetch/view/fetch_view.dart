@@ -166,7 +166,7 @@ class FetchPage extends GetView<Fetchcontroller>{
                       padding: const EdgeInsets.all(18.0),
                       child: Obx(()=>forcheck.change==true
                           ? ElevatedButton(
-                         child:Text("Time In", style: TextStyle(color: Colors.white,fontWeight: FontWeight.w700)),
+                         child:Text("TimeIn", style: TextStyle(color: Colors.white,fontWeight: FontWeight.w700)),
                         onPressed: () {
                           controller.InsertAPI();
 
